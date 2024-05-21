@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="output">
+        <input id="screen" type="text" readonly />
+      </section>
+      <section class="buttons">
+        <div>
+          <button type="button" class="ac-button">AC</button>
+          <button type="button" data-sqrt class="color-button">√</button>
+          <button type="button" class="color-button backspace">
+            <span class="material-symbols-outlined">backspace</span>
+          </button>
+          <button type="button" data-operator class="color-button">÷</button>
+        </div>
+        <div>
+          <button type="button" data-number>7</button>
+          <button type="button" data-number>8</button>
+          <button type="button" data-number>9</button>
+          <button type="button" data-operator class="color-button">×</button>
+        </div>
+        <div>
+          <button type="button" data-number>4</button>
+          <button type="button" data-number>5</button>
+          <button type="button" data-number>6</button>
+          <button type="button" data-operator class="color-button">-</button>
+        </div>
+        <div>
+          <button type="button" data-number>1</button>
+          <button type="button" data-number>2</button>
+          <button type="button" data-number>3</button>
+          <button type="button" data-operator class="color-button">+</button>
+        </div>
+        <div>
+          <button type="button" data-number>00</button>
+          <button type="button" data-number>0</button>
+          <button type="button" data-decimal>.</button>
+          <button type="button" data-equal class="color-button">=</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
